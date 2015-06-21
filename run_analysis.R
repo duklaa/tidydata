@@ -2,7 +2,6 @@
 library(dplyr)
 library(tidyr)
 
-setwd("/Users/sameer/Documents/Online Education//Data Science/Getting and Cleaning Data/Project/")
 
 #read the names for the features (this are the descriptive variable names)
 features <- read.csv("UCI HAR Dataset/features.txt", header=FALSE, sep="", col.names=c("FeatureNumber", "FeatureName"), colClasses=c("integer", "character"))
